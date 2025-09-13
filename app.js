@@ -4,6 +4,7 @@ const mongoose =require("mongoose");
 const Listing=require("../Major Projects/models/listing.js");
 const path= require("path");
 const methodOverirde= require("method-override");
+const ejsMate= require("ejs-mate");
 
 
 
@@ -11,6 +12,9 @@ app.set("views engine","ejs");
 app.set("views",path.join(__dirname,"views"));
 app.use(express.urlencoded({extended:true}));
 app.use(methodOverirde ("_method"));
+app.engine('ejs', ejsMate);
+app.use(express.static(path.join(__dirname,"/public")));
+
 
 
 
@@ -91,8 +95,9 @@ app.put("/listings/:id",async (req,res)=>{
 //Delete Route
 app.delete("/listings/:id", async (req,res)=>{
   let{id}=req.params;
-  let deleteListing=await Listing.findByIdAndDelete(id);
-  res.redirect("listings");
+  id = id.trim();
+  await Listing.findByIdAndDelete( id );
+  res.redirect("/listings");
 });
 
 app.listen(8080,()=>{
