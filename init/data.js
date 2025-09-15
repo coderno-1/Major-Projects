@@ -347,6 +347,1109 @@ const sampleListings = [
     location: "Costa Rica",
     country: "Costa Rica",
   },
+  // Template
+  [
+  {
+    "title": "Cozy Beachfront Cottage",
+    "description": "Perfectly located near attractions, dining, and shopping.",
+    "image": {
+      "filename": "listingimage",
+      "url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=60"
+    },
+    "price": 1891,
+    "location": "Paris",
+    "country": "France"
+  },
+  {
+    "title": "Cozy Beachfront Cottage",
+    "description": "Stay close to nature without giving up on comfort and style.",
+    "image": {
+      "filename": "listingimage",
+      "url": "https://images.unsplash.com/photo-1519817914152-22f90e0a46b5?auto=format&fit=crop&w=800&q=60"
+    },
+    "price": 1505,
+    "location": "Cusco",
+    "country": "Peru"
+  },
+  {
+    "title": "Island Bungalow",
+    "description": "Designed for relaxation, privacy, and memorable adventures.",
+    "image": {
+      "filename": "listingimage",
+      "url": "https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?auto=format&fit=crop&w=800&q=60"
+    },
+    "price": 3901,
+    "location": "Tuscany",
+    "country": "Italy"
+  },
+  {
+    "title": "Modern City Apartment",
+    "description": "Experience culture, history, and comfort in one unique stay.",
+    "image": {
+      "filename": "listingimage",
+      "url": "https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=800&q=60"
+    },
+    "price": 2117,
+    "location": "Aspen",
+    "country": "United States"
+  },
+  {
+    "title": "Arctic Glass Igloo",
+    "description": "Experience culture, history, and comfort in one unique stay.",
+    "image": {
+      "filename": "listingimage",
+      "url": "https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=800&q=60"
+    },
+    "price": 977,
+    "location": "Dubai",
+    "country": "UAE"
+  },
+  {
+    "title": "Ski-In Ski-Out Chalet",
+    "description": "Experience culture, history, and comfort in one unique stay.",
+    "image": {
+      "filename": "listingimage",
+      "url": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=800&q=60"
+    },
+    "price": 2725,
+    "location": "Cape Town",
+    "country": "South Africa"
+  },
+  {
+    "title": "Secluded Jungle Retreat",
+    "description": "Perfectly located near attractions, dining, and shopping.",
+    "image": {
+      "filename": "listingimage",
+      "url": "https://images.unsplash.com/photo-1528909514045-2fa4ac7a08ba?auto=format&fit=crop&w=800&q=60"
+    },
+    "price": 1507,
+    "location": "Dubai",
+    "country": "UAE"
+  },
+  {
+    "title": "Beach Hut Paradise",
+    "description": "Wake up to breathtaking views and unforgettable experiences.",
+    "image": {
+      "filename": "listingimage",
+      "url": "https://images.unsplash.com/photo-1528909514045-2fa4ac7a08ba?auto=format&fit=crop&w=800&q=60"
+    },
+    "price": 4777,
+    "location": "Paris",
+    "country": "France"
+  },
+  {
+    "title": "Cultural Heritage House",
+    "description": "Ideal for couples and families looking for a peaceful vacation.",
+    "image": {
+      "filename": "listingimage",
+      "url": "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=800&q=60"
+    },
+    "price": 2183,
+    "location": "Queenstown",
+    "country": "New Zealand"
+  },
+  {
+    "title": "Rainforest Treehouse",
+    "description": "Perfectly located near attractions, dining, and shopping.",
+    "image": {
+      "filename": "listingimage",
+      "url": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=60"
+    },
+    "price": 4932,
+    "location": "Lapland",
+    "country": "Finland"
+  },
+  {
+    "title": "Urban Loft Escape",
+    "description": "Ideal for couples and families looking for a peaceful vacation.",
+    "image": {
+      "filename": "listingimage",
+      "url": "https://images.unsplash.com/photo-1528909514045-2fa4ac7a08ba?auto=format&fit=crop&w=800&q=60"
+    },
+    "price": 4028,
+    "location": "Lapland",
+    "country": "Finland"
+  },
+  {
+    "title": "Ski-In Ski-Out Chalet",
+    "description": "Ideal for couples and families looking for a peaceful vacation.",
+    "image": {
+      "filename": "listingimage",
+      "url": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=800&q=60"
+    },
+    "price": 3429,
+    "location": "Queenstown",
+    "country": "New Zealand"
+  },
+  {
+    "title": "Cozy Beachfront Cottage",
+    "description": "Escape to this charming retreat with stunning views and cozy interiors.",
+    "image": {
+      "filename": "listingimage",
+      "url": "https://images.unsplash.com/photo-1519817914152-22f90e0a46b5?auto=format&fit=crop&w=800&q=60"
+    },
+    "price": 3568,
+    "location": "Aspen",
+    "country": "United States"
+  },
+  {
+    "title": "Mountain View Cabin",
+    "description": "Reconnect with nature in this eco-friendly accommodation.",
+    "image": {
+      "filename": "listingimage",
+      "url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=60"
+    },
+    "price": 2483,
+    "location": "Santorini",
+    "country": "Greece"
+  },
+  {
+    "title": "Rainforest Treehouse",
+    "description": "Designed for relaxation, privacy, and memorable adventures.",
+    "image": {
+      "filename": "listingimage",
+      "url": "https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=800&q=60"
+    },
+    "price": 3794,
+    "location": "Reykjavik",
+    "country": "Iceland"
+  },
+  {
+    "title": "Luxury Penthouse",
+    "description": "Escape to this charming retreat with stunning views and cozy interiors.",
+    "image": {
+      "filename": "listingimage",
+      "url": "https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?auto=format&fit=crop&w=800&q=60"
+    },
+    "price": 1101,
+    "location": "Marrakech",
+    "country": "Morocco"
+  },
+  {
+    "title": "Cliffside Villa",
+    "description": "Modern amenities meet natural surroundings for a perfect getaway.",
+    "image": {
+      "filename": "listingimage",
+      "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=60"
+    },
+    "price": 4874,
+    "location": "Paris",
+    "country": "France"
+  },
+  {
+    "title": "Ski-In Ski-Out Chalet",
+    "description": "Perfectly located near attractions, dining, and shopping.",
+    "image": {
+      "filename": "listingimage",
+      "url": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=800&q=60"
+    },
+    "price": 2248,
+    "location": "Dubai",
+    "country": "UAE"
+  },
+  {
+    "title": "Desert Luxury Camp",
+    "description": "Escape to this charming retreat with stunning views and cozy interiors.",
+    "image": {
+      "filename": "listingimage",
+      "url": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=800&q=60"
+    },
+    "price": 4275,
+    "location": "Marrakech",
+    "country": "Morocco"
+  },
+  {
+    "title": "Safari Tent",
+    "description": "Reconnect with nature in this eco-friendly accommodation.",
+    "image": {
+      "filename": "listingimage",
+      "url": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=60"
+    },
+    "price": 4710,
+    "location": "Dubai",
+    "country": "UAE"
+  },
+  {
+    "title": "Island Bungalow",
+    "description": "Enjoy the perfect mix of adventure and relaxation in this unique stay.",
+    "image": {
+      "filename": "listingimage",
+      "url": "https://images.unsplash.com/photo-1528909514045-2fa4ac7a08ba?auto=format&fit=crop&w=800&q=60"
+    },
+    "price": 1155,
+    "location": "Queenstown",
+    "country": "New Zealand"
+  },
+  {
+    "title": "Modern City Apartment",
+    "description": "Wake up to breathtaking views and unforgettable experiences.",
+    "image": {
+      "filename": "listingimage",
+      "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=60"
+    },
+    "price": 3668,
+    "location": "Banff",
+    "country": "Canada"
+  },
+  {
+    "title": "Desert Luxury Camp",
+    "description": "Wake up to breathtaking views and unforgettable experiences.",
+    "image": {
+      "filename": "listingimage",
+      "url": "https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=800&q=60"
+    },
+    "price": 665,
+    "location": "Marrakech",
+    "country": "Morocco"
+  },
+  {
+    "title": "Lakeside Wooden Lodge",
+    "description": "Enjoy the perfect mix of adventure and relaxation in this unique stay.",
+    "image": {
+      "filename": "listingimage",
+      "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=60"
+    },
+    "price": 1301,
+    "location": "Cusco",
+    "country": "Peru"
+  },
+  {
+    "title": "Lakeside Wooden Lodge",
+    "description": "Designed for relaxation, privacy, and memorable adventures.",
+    "image": {
+      "filename": "listingimage",
+      "url": "https://images.unsplash.com/photo-1519817914152-22f90e0a46b5?auto=format&fit=crop&w=800&q=60"
+    },
+    "price": 1205,
+    "location": "Malibu",
+    "country": "United States"
+  },
+  {
+    "title": "Safari Tent",
+    "description": "Designed for relaxation, privacy, and memorable adventures.",
+    "image": {
+      "filename": "listingimage",
+      "url": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=60"
+    },
+    "price": 2807,
+    "location": "Barcelona",
+    "country": "Spain"
+  },
+  {
+    "title": "Mountain View Cabin",
+    "description": "Escape to this charming retreat with stunning views and cozy interiors.",
+    "image": {
+      "filename": "listingimage",
+      "url": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=800&q=60"
+    },
+    "price": 1761,
+    "location": "Santorini",
+    "country": "Greece"
+  },
+  {
+    "title": "Urban Loft Escape",
+    "description": "Ideal for couples and families looking for a peaceful vacation.",
+    "image": {
+      "filename": "listingimage",
+      "url": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=800&q=60"
+    },
+    "price": 3292,
+    "location": "Cusco",
+    "country": "Peru"
+  },
+  {
+    "title": "Boutique Studio",
+    "description": "Designed for relaxation, privacy, and memorable adventures.",
+    "image": {
+      "filename": "listingimage",
+      "url": "https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?auto=format&fit=crop&w=800&q=60"
+    },
+    "price": 3623,
+    "location": "Lapland",
+    "country": "Finland"
+  },
+  {
+    "title": "Urban Loft Escape",
+    "description": "Experience culture, history, and comfort in one unique stay.",
+    "image": {
+      "filename": "listingimage",
+      "url": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=800&q=60"
+    },
+    "price": 722,
+    "location": "Cusco",
+    "country": "Peru"
+  },
+  {
+    "title": "Safari Tent",
+    "description": "Designed for relaxation, privacy, and memorable adventures.",
+    "image": {
+      "filename": "listingimage",
+      "url": "https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?auto=format&fit=crop&w=800&q=60"
+    },
+    "price": 4323,
+    "location": "Reykjavik",
+    "country": "Iceland"
+  },
+  {
+    "title": "Luxury Penthouse",
+    "description": "Modern amenities meet natural surroundings for a perfect getaway.",
+    "image": {
+      "filename": "listingimage",
+      "url": "https://images.unsplash.com/photo-1519817914152-22f90e0a46b5?auto=format&fit=crop&w=800&q=60"
+    },
+    "price": 3901,
+    "location": "Barcelona",
+    "country": "Spain"
+  },
+  {
+    "title": "Arctic Glass Igloo",
+    "description": "Experience culture, history, and comfort in one unique stay.",
+    "image": {
+      "filename": "listingimage",
+      "url": "https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?auto=format&fit=crop&w=800&q=60"
+    },
+    "price": 671,
+    "location": "Phuket",
+    "country": "Thailand"
+  },
+  {
+    "title": "Cultural Heritage House",
+    "description": "Stay close to nature without giving up on comfort and style.",
+    "image": {
+      "filename": "listingimage",
+      "url": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=60"
+    },
+    "price": 2751,
+    "location": "Tuscany",
+    "country": "Italy"
+  },
+  {
+    "title": "Island Bungalow",
+    "description": "Escape to this charming retreat with stunning views and cozy interiors.",
+    "image": {
+      "filename": "listingimage",
+      "url": "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=800&q=60"
+    },
+    "price": 4482,
+    "location": "Kyoto",
+    "country": "Japan"
+  },
+  {
+    "title": "Mountain View Cabin",
+    "description": "Reconnect with nature in this eco-friendly accommodation.",
+    "image": {
+      "filename": "listingimage",
+      "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=60"
+    },
+    "price": 1935,
+    "location": "Cape Town",
+    "country": "South Africa"
+  },
+  {
+    "title": "Cultural Heritage House",
+    "description": "Experience culture, history, and comfort in one unique stay.",
+    "image": {
+      "filename": "listingimage",
+      "url": "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=800&q=60"
+    },
+    "price": 2383,
+    "location": "Barcelona",
+    "country": "Spain"
+  },
+  {
+    "title": "Lakeside Wooden Lodge",
+    "description": "Designed for relaxation, privacy, and memorable adventures.",
+    "image": {
+      "filename": "listingimage",
+      "url": "https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=800&q=60"
+    },
+    "price": 2486,
+    "location": "Bali",
+    "country": "Indonesia"
+  },
+  {
+    "title": "Modern City Apartment",
+    "description": "Modern amenities meet natural surroundings for a perfect getaway.",
+    "image": {
+      "filename": "listingimage",
+      "url": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=800&q=60"
+    },
+    "price": 2195,
+    "location": "Tuscany",
+    "country": "Italy"
+  },
+  {
+    "title": "Charming Countryside Villa",
+    "description": "Reconnect with nature in this eco-friendly accommodation.",
+    "image": {
+      "filename": "listingimage",
+      "url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=60"
+    },
+    "price": 4771,
+    "location": "Cusco",
+    "country": "Peru"
+  },
+  {
+    "title": "Rainforest Treehouse",
+    "description": "Designed for relaxation, privacy, and memorable adventures.",
+    "image": {
+      "filename": "listingimage",
+      "url": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=60"
+    },
+    "price": 3803,
+    "location": "Tuscany",
+    "country": "Italy"
+  },
+  {
+    "title": "Urban Loft Escape",
+    "description": "Enjoy the perfect mix of adventure and relaxation in this unique stay.",
+    "image": {
+      "filename": "listingimage",
+      "url": "https://images.unsplash.com/photo-1528909514045-2fa4ac7a08ba?auto=format&fit=crop&w=800&q=60"
+    },
+    "price": 2510,
+    "location": "Paris",
+    "country": "France"
+  },
+  {
+    "title": "Boutique Studio",
+    "description": "Designed for relaxation, privacy, and memorable adventures.",
+    "image": {
+      "filename": "listingimage",
+      "url": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=60"
+    },
+    "price": 2991,
+    "location": "Berlin",
+    "country": "Germany"
+  },
+  {
+    "title": "Cultural Heritage House",
+    "description": "Modern amenities meet natural surroundings for a perfect getaway.",
+    "image": {
+      "filename": "listingimage",
+      "url": "https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=800&q=60"
+    },
+    "price": 3866,
+    "location": "Marrakech",
+    "country": "Morocco"
+  },
+  {
+    "title": "Arctic Glass Igloo",
+    "description": "Wake up to breathtaking views and unforgettable experiences.",
+    "image": {
+      "filename": "listingimage",
+      "url": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=60"
+    },
+    "price": 2920,
+    "location": "Petra",
+    "country": "Jordan"
+  },
+  {
+    "title": "Rustic Farmhouse",
+    "description": "Stay close to nature without giving up on comfort and style.",
+    "image": {
+      "filename": "listingimage",
+      "url": "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=800&q=60"
+    },
+    "price": 1100,
+    "location": "Santorini",
+    "country": "Greece"
+  },
+  {
+    "title": "Cultural Heritage House",
+    "description": "Experience culture, history, and comfort in one unique stay.",
+    "image": {
+      "filename": "listingimage",
+      "url": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=800&q=60"
+    },
+    "price": 4818,
+    "location": "Kyoto",
+    "country": "Japan"
+  },
+  {
+    "title": "Charming Countryside Villa",
+    "description": "Designed for relaxation, privacy, and memorable adventures.",
+    "image": {
+      "filename": "listingimage",
+      "url": "https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?auto=format&fit=crop&w=800&q=60"
+    },
+    "price": 3770,
+    "location": "Cusco",
+    "country": "Peru"
+  },
+  {
+    "title": "Mountain View Cabin",
+    "description": "Perfectly located near attractions, dining, and shopping.",
+    "image": {
+      "filename": "listingimage",
+      "url": "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=800&q=60"
+    },
+    "price": 2086,
+    "location": "Tuscany",
+    "country": "Italy"
+  },
+  {
+    "title": "Charming Countryside Villa",
+    "description": "Escape to this charming retreat with stunning views and cozy interiors.",
+    "image": {
+      "filename": "listingimage",
+      "url": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=60"
+    },
+    "price": 4585,
+    "location": "Phuket",
+    "country": "Thailand"
+  },
+  {
+    "title": "Cozy Beachfront Cottage",
+    "description": "Wake up to breathtaking views and unforgettable experiences.",
+    "image": {
+      "filename": "listingimage",
+      "url": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=60"
+    },
+    "price": 4572,
+    "location": "Barcelona",
+    "country": "Spain"
+  },
+  {
+    "title": "Boutique Studio",
+    "description": "Wake up to breathtaking views and unforgettable experiences.",
+    "image": {
+      "filename": "listingimage",
+      "url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=60"
+    },
+    "price": 1866,
+    "location": "Banff",
+    "country": "Canada"
+  },
+  {
+    "title": "Cliffside Villa",
+    "description": "Enjoy the perfect mix of adventure and relaxation in this unique stay.",
+    "image": {
+      "filename": "listingimage",
+      "url": "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=800&q=60"
+    },
+    "price": 3447,
+    "location": "Dubai",
+    "country": "UAE"
+  },
+  {
+    "title": "Cliffside Villa",
+    "description": "Perfectly located near attractions, dining, and shopping.",
+    "image": {
+      "filename": "listingimage",
+      "url": "https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=800&q=60"
+    },
+    "price": 2570,
+    "location": "Cusco",
+    "country": "Peru"
+  },
+  {
+    "title": "Lakeside Wooden Lodge",
+    "description": "Ideal for couples and families looking for a peaceful vacation.",
+    "image": {
+      "filename": "listingimage",
+      "url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=60"
+    },
+    "price": 1765,
+    "location": "Aspen",
+    "country": "United States"
+  },
+  {
+    "title": "Cozy Beachfront Cottage",
+    "description": "Modern amenities meet natural surroundings for a perfect getaway.",
+    "image": {
+      "filename": "listingimage",
+      "url": "https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?auto=format&fit=crop&w=800&q=60"
+    },
+    "price": 3822,
+    "location": "Bali",
+    "country": "Indonesia"
+  },
+  {
+    "title": "Secluded Jungle Retreat",
+    "description": "Designed for relaxation, privacy, and memorable adventures.",
+    "image": {
+      "filename": "listingimage",
+      "url": "https://images.unsplash.com/photo-1528909514045-2fa4ac7a08ba?auto=format&fit=crop&w=800&q=60"
+    },
+    "price": 3695,
+    "location": "Santorini",
+    "country": "Greece"
+  },
+  {
+    "title": "Cozy Beachfront Cottage",
+    "description": "Designed for relaxation, privacy, and memorable adventures.",
+    "image": {
+      "filename": "listingimage",
+      "url": "https://images.unsplash.com/photo-1528909514045-2fa4ac7a08ba?auto=format&fit=crop&w=800&q=60"
+    },
+    "price": 566,
+    "location": "Aspen",
+    "country": "United States"
+  },
+  {
+    "title": "Luxury Penthouse",
+    "description": "Wake up to breathtaking views and unforgettable experiences.",
+    "image": {
+      "filename": "listingimage",
+      "url": "https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?auto=format&fit=crop&w=800&q=60"
+    },
+    "price": 3253,
+    "location": "Paris",
+    "country": "France"
+  },
+  {
+    "title": "Rainforest Treehouse",
+    "description": "Ideal for couples and families looking for a peaceful vacation.",
+    "image": {
+      "filename": "listingimage",
+      "url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=60"
+    },
+    "price": 1404,
+    "location": "Queenstown",
+    "country": "New Zealand"
+  },
+  {
+    "title": "Secluded Jungle Retreat",
+    "description": "Reconnect with nature in this eco-friendly accommodation.",
+    "image": {
+      "filename": "listingimage",
+      "url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=60"
+    },
+    "price": 1502,
+    "location": "Berlin",
+    "country": "Germany"
+  },
+  {
+    "title": "Modern City Apartment",
+    "description": "Ideal for couples and families looking for a peaceful vacation.",
+    "image": {
+      "filename": "listingimage",
+      "url": "https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=800&q=60"
+    },
+    "price": 1452,
+    "location": "Cappadocia",
+    "country": "Turkey"
+  },
+  {
+    "title": "Modern City Apartment",
+    "description": "Experience culture, history, and comfort in one unique stay.",
+    "image": {
+      "filename": "listingimage",
+      "url": "https://images.unsplash.com/photo-1528909514045-2fa4ac7a08ba?auto=format&fit=crop&w=800&q=60"
+    },
+    "price": 3314,
+    "location": "Cusco",
+    "country": "Peru"
+  },
+  {
+    "title": "Cliffside Villa",
+    "description": "Ideal for couples and families looking for a peaceful vacation.",
+    "image": {
+      "filename": "listingimage",
+      "url": "https://images.unsplash.com/photo-1528909514045-2fa4ac7a08ba?auto=format&fit=crop&w=800&q=60"
+    },
+    "price": 2549,
+    "location": "Banff",
+    "country": "Canada"
+  },
+  {
+    "title": "Rainforest Treehouse",
+    "description": "Wake up to breathtaking views and unforgettable experiences.",
+    "image": {
+      "filename": "listingimage",
+      "url": "https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?auto=format&fit=crop&w=800&q=60"
+    },
+    "price": 2139,
+    "location": "Reykjavik",
+    "country": "Iceland"
+  },
+  {
+    "title": "Lakeside Wooden Lodge",
+    "description": "Enjoy the perfect mix of adventure and relaxation in this unique stay.",
+    "image": {
+      "filename": "listingimage",
+      "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=60"
+    },
+    "price": 1566,
+    "location": "Barcelona",
+    "country": "Spain"
+  },
+  {
+    "title": "Island Bungalow",
+    "description": "Modern amenities meet natural surroundings for a perfect getaway.",
+    "image": {
+      "filename": "listingimage",
+      "url": "https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=800&q=60"
+    },
+    "price": 4775,
+    "location": "Cappadocia",
+    "country": "Turkey"
+  },
+  {
+    "title": "Beach Hut Paradise",
+    "description": "Escape to this charming retreat with stunning views and cozy interiors.",
+    "image": {
+      "filename": "listingimage",
+      "url": "https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?auto=format&fit=crop&w=800&q=60"
+    },
+    "price": 631,
+    "location": "Dubai",
+    "country": "UAE"
+  },
+  {
+    "title": "Cultural Heritage House",
+    "description": "Enjoy the perfect mix of adventure and relaxation in this unique stay.",
+    "image": {
+      "filename": "listingimage",
+      "url": "https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?auto=format&fit=crop&w=800&q=60"
+    },
+    "price": 1881,
+    "location": "Paris",
+    "country": "France"
+  },
+  {
+    "title": "Lakeside Wooden Lodge",
+    "description": "Wake up to breathtaking views and unforgettable experiences.",
+    "image": {
+      "filename": "listingimage",
+      "url": "https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?auto=format&fit=crop&w=800&q=60"
+    },
+    "price": 3471,
+    "location": "Dubai",
+    "country": "UAE"
+  },
+  {
+    "title": "Island Bungalow",
+    "description": "Ideal for couples and families looking for a peaceful vacation.",
+    "image": {
+      "filename": "listingimage",
+      "url": "https://images.unsplash.com/photo-1528909514045-2fa4ac7a08ba?auto=format&fit=crop&w=800&q=60"
+    },
+    "price": 3284,
+    "location": "Marrakech",
+    "country": "Morocco"
+  },
+  {
+    "title": "Cliffside Villa",
+    "description": "Stay close to nature without giving up on comfort and style.",
+    "image": {
+      "filename": "listingimage",
+      "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=60"
+    },
+    "price": 4692,
+    "location": "Tuscany",
+    "country": "Italy"
+  },
+  {
+    "title": "Arctic Glass Igloo",
+    "description": "Wake up to breathtaking views and unforgettable experiences.",
+    "image": {
+      "filename": "listingimage",
+      "url": "https://images.unsplash.com/photo-1519817914152-22f90e0a46b5?auto=format&fit=crop&w=800&q=60"
+    },
+    "price": 2677,
+    "location": "Dubai",
+    "country": "UAE"
+  },
+  {
+    "title": "Mountain View Cabin",
+    "description": "Escape to this charming retreat with stunning views and cozy interiors.",
+    "image": {
+      "filename": "listingimage",
+      "url": "https://images.unsplash.com/photo-1519817914152-22f90e0a46b5?auto=format&fit=crop&w=800&q=60"
+    },
+    "price": 2810,
+    "location": "Paris",
+    "country": "France"
+  },
+  {
+    "title": "Arctic Glass Igloo",
+    "description": "Reconnect with nature in this eco-friendly accommodation.",
+    "image": {
+      "filename": "listingimage",
+      "url": "https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=800&q=60"
+    },
+    "price": 867,
+    "location": "Paris",
+    "country": "France"
+  },
+  {
+    "title": "Beach Hut Paradise",
+    "description": "Stay close to nature without giving up on comfort and style.",
+    "image": {
+      "filename": "listingimage",
+      "url": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=800&q=60"
+    },
+    "price": 900,
+    "location": "Kyoto",
+    "country": "Japan"
+  },
+  {
+    "title": "Mountain View Cabin",
+    "description": "Enjoy the perfect mix of adventure and relaxation in this unique stay.",
+    "image": {
+      "filename": "listingimage",
+      "url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=60"
+    },
+    "price": 3579,
+    "location": "Bali",
+    "country": "Indonesia"
+  },
+  {
+    "title": "Rustic Farmhouse",
+    "description": "Modern amenities meet natural surroundings for a perfect getaway.",
+    "image": {
+      "filename": "listingimage",
+      "url": "https://images.unsplash.com/photo-1528909514045-2fa4ac7a08ba?auto=format&fit=crop&w=800&q=60"
+    },
+    "price": 1520,
+    "location": "Petra",
+    "country": "Jordan"
+  },
+  {
+    "title": "Modern City Apartment",
+    "description": "Reconnect with nature in this eco-friendly accommodation.",
+    "image": {
+      "filename": "listingimage",
+      "url": "https://images.unsplash.com/photo-1528909514045-2fa4ac7a08ba?auto=format&fit=crop&w=800&q=60"
+    },
+    "price": 3755,
+    "location": "Marrakech",
+    "country": "Morocco"
+  },
+  {
+    "title": "Lakeside Wooden Lodge",
+    "description": "Wake up to breathtaking views and unforgettable experiences.",
+    "image": {
+      "filename": "listingimage",
+      "url": "https://images.unsplash.com/photo-1519817914152-22f90e0a46b5?auto=format&fit=crop&w=800&q=60"
+    },
+    "price": 4732,
+    "location": "Lapland",
+    "country": "Finland"
+  },
+  {
+    "title": "Cliffside Villa",
+    "description": "Perfectly located near attractions, dining, and shopping.",
+    "image": {
+      "filename": "listingimage",
+      "url": "https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=800&q=60"
+    },
+    "price": 4219,
+    "location": "Barcelona",
+    "country": "Spain"
+  },
+  {
+    "title": "Historic Castle Stay",
+    "description": "Perfectly located near attractions, dining, and shopping.",
+    "image": {
+      "filename": "listingimage",
+      "url": "https://images.unsplash.com/photo-1528909514045-2fa4ac7a08ba?auto=format&fit=crop&w=800&q=60"
+    },
+    "price": 4426,
+    "location": "Cape Town",
+    "country": "South Africa"
+  },
+  {
+    "title": "Secluded Jungle Retreat",
+    "description": "Ideal for couples and families looking for a peaceful vacation.",
+    "image": {
+      "filename": "listingimage",
+      "url": "https://images.unsplash.com/photo-1528909514045-2fa4ac7a08ba?auto=format&fit=crop&w=800&q=60"
+    },
+    "price": 4031,
+    "location": "Petra",
+    "country": "Jordan"
+  },
+  {
+    "title": "Cultural Heritage House",
+    "description": "Escape to this charming retreat with stunning views and cozy interiors.",
+    "image": {
+      "filename": "listingimage",
+      "url": "https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=800&q=60"
+    },
+    "price": 695,
+    "location": "Barcelona",
+    "country": "Spain"
+  },
+  {
+    "title": "Lakeside Wooden Lodge",
+    "description": "Modern amenities meet natural surroundings for a perfect getaway.",
+    "image": {
+      "filename": "listingimage",
+      "url": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=800&q=60"
+    },
+    "price": 2460,
+    "location": "Dubai",
+    "country": "UAE"
+  },
+  {
+    "title": "Modern City Apartment",
+    "description": "Modern amenities meet natural surroundings for a perfect getaway.",
+    "image": {
+      "filename": "listingimage",
+      "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=60"
+    },
+    "price": 3243,
+    "location": "Phuket",
+    "country": "Thailand"
+  },
+  {
+    "title": "Beach Hut Paradise",
+    "description": "Ideal for couples and families looking for a peaceful vacation.",
+    "image": {
+      "filename": "listingimage",
+      "url": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=60"
+    },
+    "price": 4313,
+    "location": "Kyoto",
+    "country": "Japan"
+  },
+  {
+    "title": "Boutique Studio",
+    "description": "Wake up to breathtaking views and unforgettable experiences.",
+    "image": {
+      "filename": "listingimage",
+      "url": "https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=800&q=60"
+    },
+    "price": 3218,
+    "location": "Queenstown",
+    "country": "New Zealand"
+  },
+  {
+    "title": "Island Bungalow",
+    "description": "Wake up to breathtaking views and unforgettable experiences.",
+    "image": {
+      "filename": "listingimage",
+      "url": "https://images.unsplash.com/photo-1528909514045-2fa4ac7a08ba?auto=format&fit=crop&w=800&q=60"
+    },
+    "price": 2962,
+    "location": "Petra",
+    "country": "Jordan"
+  },
+  {
+    "title": "Cultural Heritage House",
+    "description": "Reconnect with nature in this eco-friendly accommodation.",
+    "image": {
+      "filename": "listingimage",
+      "url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=60"
+    },
+    "price": 3916,
+    "location": "Tuscany",
+    "country": "Italy"
+  },
+  {
+    "title": "Cliffside Villa",
+    "description": "Wake up to breathtaking views and unforgettable experiences.",
+    "image": {
+      "filename": "listingimage",
+      "url": "https://images.unsplash.com/photo-1519817914152-22f90e0a46b5?auto=format&fit=crop&w=800&q=60"
+    },
+    "price": 1972,
+    "location": "Santorini",
+    "country": "Greece"
+  },
+  {
+    "title": "Cliffside Villa",
+    "description": "Reconnect with nature in this eco-friendly accommodation.",
+    "image": {
+      "filename": "listingimage",
+      "url": "https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=800&q=60"
+    },
+    "price": 1088,
+    "location": "Bali",
+    "country": "Indonesia"
+  },
+  {
+    "title": "Boutique Studio",
+    "description": "Escape to this charming retreat with stunning views and cozy interiors.",
+    "image": {
+      "filename": "listingimage",
+      "url": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=800&q=60"
+    },
+    "price": 758,
+    "location": "Bali",
+    "country": "Indonesia"
+  },
+  {
+    "title": "Charming Countryside Villa",
+    "description": "Ideal for couples and families looking for a peaceful vacation.",
+    "image": {
+      "filename": "listingimage",
+      "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=60"
+    },
+    "price": 902,
+    "location": "Marrakech",
+    "country": "Morocco"
+  },
+  {
+    "title": "Urban Loft Escape",
+    "description": "Perfectly located near attractions, dining, and shopping.",
+    "image": {
+      "filename": "listingimage",
+      "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=60"
+    },
+    "price": 4302,
+    "location": "Marrakech",
+    "country": "Morocco"
+  },
+  {
+    "title": "Beach Hut Paradise",
+    "description": "Perfectly located near attractions, dining, and shopping.",
+    "image": {
+      "filename": "listingimage",
+      "url": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=60"
+    },
+    "price": 618,
+    "location": "Tuscany",
+    "country": "Italy"
+  },
+  {
+    "title": "Safari Tent",
+    "description": "Modern amenities meet natural surroundings for a perfect getaway.",
+    "image": {
+      "filename": "listingimage",
+      "url": "https://images.unsplash.com/photo-1528909514045-2fa4ac7a08ba?auto=format&fit=crop&w=800&q=60"
+    },
+    "price": 3292,
+    "location": "Santorini",
+    "country": "Greece"
+  },
+  {
+    "title": "Ski-In Ski-Out Chalet",
+    "description": "Stay close to nature without giving up on comfort and style.",
+    "image": {
+      "filename": "listingimage",
+      "url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=60"
+    },
+    "price": 3579,
+    "location": "Cape Town",
+    "country": "South Africa"
+  },
+  {
+    "title": "Desert Luxury Camp",
+    "description": "Stay close to nature without giving up on comfort and style.",
+    "image": {
+      "filename": "listingimage",
+      "url": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=800&q=60"
+    },
+    "price": 4411,
+    "location": "Banff",
+    "country": "Canada"
+  },
+  {
+    "title": "Island Bungalow",
+    "description": "Modern amenities meet natural surroundings for a perfect getaway.",
+    "image": {
+      "filename": "listingimage",
+      "url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=60"
+    },
+    "price": 4434,
+    "location": "Dubai",
+    "country": "UAE"
+  }
+]
 ];
 
 module.exports = { data: sampleListings };
