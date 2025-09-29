@@ -1,91 +1,166 @@
-body{
-    font-family: "Plus Jakarta Sans", sans-serif !important ;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
+body {
+  font-family: "Plus Jakarta Sans", sans-serif !important ;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  border: border-box;
 }
- .conatiner{
-    flex: 1;
- }
- .navbar{
-    height: 5rem;
-    background-color: white;
- }
-.fa-compass{
-    color: rgb(28, 28, 255);
+.conatiner {
+  flex: 1;
 }
-.nav-link{
-    color: #222222 !important;
+.navbar {
+  height: 5rem;
+  background-color: white;
+}
+.fa-compass {
+  color: rgb(28, 28, 255);
+    font-size: 1.5rem;
+}
+.nav-link {
+  color: #222222 !important;
 }
 
 /* Footer */
 
-.f-info a{
-    text-decoration: none;
-    color: #222222;
+.f-info a {
+  text-decoration: none;
+  color: #222222;
 }
-.f-info a:hover{
-    text-decoration: underline;
-   
+.f-info a:hover {
+  text-decoration: underline;
 }
-.f-info-links, .f-info-socials,.f-info-brand{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content:center;
+.f-info-links,
+.f-info-socials,
+.f-info-brand {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.f-info-socials i{
-    margin-right: 1rem;
-    font-size: 1.2rem;
+.f-info-socials i {
+  margin-right: 1rem;
+  font-size: 1.2rem;
 }
-.f-info{
-    text-align: center;
-    height: 8rem;
-    display: flex;
-    background-color: aliceblue;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: space-evenly;
+.f-info {
+  text-align: center;
+  height: 8rem;
+  display: flex;
+  background-color: aliceblue;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  align-items: space-evenly;
 }
 /* Cards */
-.card{
-    border: none !important;
-    margin-bottom: 2rem; 
+.card {
+  border: none !important;
+  margin-bottom: 2rem;
 }
-.card-img-top{
-    border-radius: 1rem !important ;
-    width: 100% !important;
-    object-fit: cover !important;
+.card-img-top {
+  border-radius: 1rem !important ;
+  width: 100% !important;
+  object-fit: cover !important;
 }
-.card-body{
-    padding: 0 !important;
+.card-body {
+  padding: 0 !important;
 }
-.card-text p{
-    font-weight: 400 !important;
+.card-text p {
+  font-weight: 400 !important;
 }
-.listing-link{
-    text-decoration: none;
+.listing-link {
+  text-decoration: none;
 }
-.card-img-overlay{
-    opacity: 0;
+.card-img-overlay {
+  opacity: 0;
 }
-.card-img-overlay:hover{
-    opacity: 0.2;
-    background-color: white;
+.card-img-overlay:hover {
+  opacity: 0.2;
+  background-color: white;
 }
-.new-listing{
-    font-weight: 600 !important;
+.new-listing {
+  font-weight: 600 !important;
 }
-.show-img{
-    height:40vh !important;
+.show-img {
+  height: 40vh !important;
 }
-.btns{
-    display: flex !important;
+.btns {
+  display: flex !important;
 }
-.edit-btn{
-    margin-right: 2rem;
+.edit-btn {
+  margin-right: 2rem;
 }
 
-/* Footer */
+/* nav bar */
 
+@media (max-width: 991px) {
+  .slidebar {
+    background-color: rgba(255, 255, 255, 0.15);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    width: 60% !important;
+  }
+}
+ 
+
+/*Nav search-Box box */
+.nav-search{
+    display: flex;
+    /* background-color: pink; */
+    /* justify-content: space-evenly; */
+    width: 15rem;
+    height: 2.1rem;
+    border-radius: 5px;
+    border: 1px solid rgba(151, 148, 148, 0.5);
+    
+}
+
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    outline: none;
+    padding-left: 1rem;
+}
+.search-input::placeholder {
+  padding-left: 1rem;
+  font-size: 0.9rem;
+  color: grey;
+  outline: none;
+}
+
+.nav-search:hover{
+    border: 1px solid rgba(17, 12, 12, 0.6);
+}
+
+.search-icon{
+    width: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    background-color: #f94ca4;  
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: rgba(38, 33, 33, 0.9);
+    cursor: pointer;
+}
+
+.hover-effect:hover{
+    color:rgb(198, 187, 187);
+    background-color: #f94ca4;
+    opacity: 0.98;
+}
+
+
+
+ /*  login and signup btns */
+.signup-btn {
+  background-color: #f94ca4;
+}
+/* .signup-btn:hover {
+  background-color: #f21382;
+  opacity: 0.8;
+} */
