@@ -7,6 +7,8 @@ const methodOverirde= require("method-override");
 const ejsMate= require("ejs-mate");
 const wrapAsync=require("./utils/wrapAsync.js");
 const ExpressError=require("./utils/ExpressError.js");
+const {listingSchema}=require("./schema.js");
+const { error } = require("console");
 
 
 
@@ -37,6 +39,14 @@ app.get("/",(req,res)=>{
     res.send("Hi i am root");
 });
 
+const validateSchema=(req,res,next)=>{
+  let {error}=listingSchema.validate(req.body);
+  if(error){
+    throw new ExpressError(400,error);
+  }else{
+    next();
+  }
+}
 
 
 // app.get("/testlisting",async (req,res)=>{
@@ -72,15 +82,10 @@ app.get("/listings/:id",wrapAsync(async (req,res)=>{
 }));
 
 //Create Route
-app.post("/listings",wrapAsync( async (req,res,next)=>{
-  if(!req.body.listing){
-     throw new ExpressError(400,"Please send valid data for listing")
-  }else{
-    const listing=req.body.listing;
+app.post("/listings",validateSchema,wrapAsync( async (req,res,next)=>{
   const newListing= new Listing(listing);
   await newListing.save();
   res.redirect("/listings");
-  }
 }));
  
 
@@ -92,14 +97,11 @@ app.get("/listings/:id/edit",wrapAsync(async (req,res)=>{
 }));
 
 //Update Route
-app.put("/listings/:id",wrapAsync(async (req,res)=>{
-  if(!req.body.listing){
-     throw new ExpressError(400,"Please send valid data for listing")
-  }else{
+app.put("/listings/:id",validateSchema,wrapAsync(async (req,res)=>{
   let{id}=req.params;
   await Listing.findByIdAndUpdate(id,{...req.body.listing});
   res.redirect(`/listings/${id}`);
-  }
+  
 }));
 
 //Delete Route
@@ -114,7 +116,8 @@ app.all("",(req,res,next)=>{
 })
 
 app.use((err,req,res,next)=>{
-  let {statusCode,message}=err; 
+  let {statusCode=500,message="Something went Wrong !!"}=err; 
+  res.status(statusCode).render("error.ejs",{err});
   res.status(statusCode).send(message); 
 })
 
