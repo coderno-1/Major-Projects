@@ -26,7 +26,7 @@
   </div>
 </nav> -->
 
-<header>
+<!-- <header>
     <nav class="nav-main">
       <div class="nav-left">
          <a class="logo-brand" href="/"><i class="fa-solid fa-compass"></i>WanderHub</a>
@@ -39,14 +39,13 @@
 
     
         <div class="nav-menu">
-          <a href="#home" class="active">Home</a>  
           <a href="#services">Services</a> 
           <a href="#contact">Contact</a> 
           <a href="#about">About</a> 
           <a href="#alllistinings">All Listining</a>
           <a class="addNew-listining" href="#addlistining">Add Listining <span>NEW</span></a>  
         </div>
-          <!-- <i class="fa-solid fa-bars toggle-btn"></i> -->
+          
       </div>
 
       <div class="nav-right">
@@ -82,4 +81,56 @@
         navMenu.classList.toggle('active');
       })
      
-  </script>
+  </script> -->
+
+
+
+<nav class="navbar navbar-expand-lg">
+  <div class="container">
+    <!-- Logo -->
+    <a class="navbar-brand text-black" href="/"
+      ><i class="fa-solid fa-compass text-primary"></i>WanderHub</a
+    >
+
+    <!-- Toggler for mobile -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" title="Toggle navigation" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      <span class="visually-hidden">Toggle navigation</span>
+    </button>
+
+    <!-- Navbar Links -->
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+        <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Feactures</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="/listings">All listining</a></li>
+            <li><a class="dropdown-item" href="/listings/new">Add listining</a></li>
+            <li><a class="dropdown-item" href="#">Edit</a></li>
+          </ul>
+        </li>
+        <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Help Center</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+      </ul>
+
+      <!-- Right Side -->
+      <form class="d-flex align-items-center gap-3">
+        <div class="input-group search-box">
+          <span class="input-group-text bg-white border-end-0"><i class="fa fa-search text-muted"></i></span>
+          <input class="form-control border-start-0" type="search" placeholder="Search">
+        </div>
+
+        <button class="icon-btn" type="button" title="Notifications" style="border: none; background: transparent;">
+          <i class="fa-regular fa-heart fs-4"></i>
+          <!-- <span class="badge bg-danger rounded-circle">9</span> -->
+        </button>
+
+        <button class="icon-btn fs-2" type="button" title="User Profile" style="border: none; background: transparent;">
+          <i class="fa-regular fa-circle-user"></i>
+        </button>
+      </form>
+    </div>
+  </div>
+</nav>
